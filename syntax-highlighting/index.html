@@ -1,0 +1,800 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="noodp"><meta http-equiv=x-ua-compatible content="IE=edge, chrome=1"><title>Syntax Highlighting - CodeIT</title><meta name=description content="Syntax highlighting examples"><meta property="og:title" content="Syntax Highlighting"><meta property="og:description" content="Syntax highlighting examples"><meta property="og:type" content="article"><meta property="og:url" content="https://sosiristseng.github.io/template-hugo-codeit/syntax-highlighting/"><meta property="og:image" content="https://sosiristseng.github.io/template-hugo-codeit/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2021-01-10T16:22:58+08:00"><meta property="article:modified_time" content="2021-05-09T14:58:20+08:00"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://sosiristseng.github.io/template-hugo-codeit/"><meta name=twitter:title content="Syntax Highlighting"><meta name=twitter:description content="Syntax highlighting examples"><meta name=application-name content="CodeIT"><meta name=apple-mobile-web-app-title content="CodeIT"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel=canonical href=https://sosiristseng.github.io/template-hugo-codeit/syntax-highlighting/><link rel=next href=https://sosiristseng.github.io/template-hugo-codeit/emoji-support/><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css><link rel=stylesheet href=/template-hugo-codeit/css/style.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Syntax Highlighting","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/sosiristseng.github.io\/template-hugo-codeit\/syntax-highlighting\/"},"genre":"posts","keywords":"syntax highlighting","wordcount":1646,"url":"https:\/\/sosiristseng.github.io\/template-hugo-codeit\/syntax-highlighting\/","datePublished":"2021-01-10T16:22:58+08:00","dateModified":"2021-05-09T14:58:20+08:00","license":"This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher":{"@type":"Organization","name":"xxxx"},"author":{"@type":"Person","name":"Wen-Wei Tseng"},"description":"Syntax highlighting examples"}</script></head><body header-desktop=fixed header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'auto'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'auto'==='dark')&&document.body.setAttribute('theme','dark')</script><div id=mask></div><div class=wrapper><header class=desktop id=header-desktop><div class=header-wrapper><div class=header-title><a href=/template-hugo-codeit/ title=CodeIT><span class=header-title-pre><i class="fas fa-laptop-code fa-fw"></i></span>CodeIT</a></div><div class=menu><div class=menu-inner><a class=menu-item href=/template-hugo-codeit/posts/>Posts </a><a class=menu-item href=/template-hugo-codeit/tags/>Tags </a><a class=menu-item href=/template-hugo-codeit/categories/>Categories </a><a class=menu-item href=/template-hugo-codeit/about/>About CodeIT </a><a class=menu-item href=https://github.com/sosiristseng/template-hugo-codeit title=GitHub rel="noopener noreferrer" target=_blank><i class="fab fa-github fa-fw"></i> </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop><input type=text placeholder=Search id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Search><i class="fas fa-search fa-fw"></i></a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Clear><i class="fas fa-times-circle fa-fw"></i></a>
+<span class="search-button search-loading" id=search-loading-desktop><i class="fas fa-spinner fa-fw fa-spin"></i></span>
+</span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme"><i class="fas fa-adjust fa-fw"></i></a></div></div></div></header><header class=mobile id=header-mobile><div class=header-container><div class=header-wrapper><div class=header-title><a href=/template-hugo-codeit/ title=CodeIT><span class=header-title-pre><i class="fas fa-laptop-code fa-fw"></i></span>CodeIT</a></div><div class=menu-toggle id=menu-toggle-mobile><span></span><span></span><span></span></div></div><div class=menu id=menu-mobile><div class=search-wrapper><div class="search mobile" id=search-mobile><input type=text placeholder=Search id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Search><i class="fas fa-search fa-fw"></i></a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Clear><i class="fas fa-times-circle fa-fw"></i></a>
+<span class="search-button search-loading" id=search-loading-mobile><i class="fas fa-spinner fa-fw fa-spin"></i></span></div><a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>Cancel</a></div><a class=menu-item href=/template-hugo-codeit/posts/ title>Posts</a><a class=menu-item href=/template-hugo-codeit/tags/ title>Tags</a><a class=menu-item href=/template-hugo-codeit/categories/ title>Categories</a><a class=menu-item href=/template-hugo-codeit/about/ title>About CodeIT</a><a class=menu-item href=https://github.com/sosiristseng/template-hugo-codeit title=GitHub rel="noopener noreferrer" target=_blank><i class="fab fa-github fa-fw"></i></a><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw"></i></a></div></div></header><div class="search-dropdown desktop"><div id=search-dropdown-desktop></div></div><div class="search-dropdown mobile"><div id=search-dropdown-mobile></div></div><main class=main><div class=container><div class=toc id=toc-auto><h2 class=toc-title>Contents</h2><div class=toc-content id=toc-content-auto></div></div><article class="page single"><h1 class="single-title animated flipInX">Syntax Highlighting</h1><div class=post-meta><div class=post-meta-line><span class=post-author><a href=https://github.com/sosiristseng title=Author target=_blank rel="noopener noreferrer author" class=author><i class="fas fa-user-circle fa-fw"></i>Wen-Wei Tseng</a></span>&nbsp;<span class=post-category>included in <a href=/template-hugo-codeit/categories/hugo/><i class="far fa-folder fa-fw"></i>Hugo</a></span></div><div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2021-01-10>2021-01-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1646 words&nbsp;
+<i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;</div></div><div class="details toc" id=toc-static kept><div class="details-summary toc-title"><span>Contents</span>
+<span><i class="details-icon fas fa-angle-right"></i></span></div><div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents><ul><li><a href=#bash>Bash</a></li><li><a href=#c>C</a></li><li><a href=#css>CSS</a></li><li><a href=#go>Go</a></li><li><a href=#haskell>Haskell</a></li><li><a href=#html>HTML</a></li><li><a href=#java>Java</a></li><li><a href=#javascript>JavaScript</a></li><li><a href=#json>JSON</a></li><li><a href=#objective-c>Objective-C</a></li><li><a href=#perl>Perl</a></li><li><a href=#php>PHP</a></li><li><a href=#python>Python</a></li><li><a href=#ruby>Ruby</a></li><li><a href=#scss>SCSS</a></li><li><a href=#sql>SQL</a></li><li><a href=#xml>XML</a></li></ul></nav></div></div><div class=content id=content><p>This post shows syntax highlighting examples.</p><h2 id=bash>Bash</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-bash data-lang=bash><span class=cp>#!/bin/bash
+</span><span class=cp></span>
+<span class=nb>cd</span> <span class=nv>$ROOT_DIR</span>
+<span class=nv>DOT_FILES</span><span class=o>=</span><span class=s2>&#34;lastpass weechat ssh Xauthority&#34;</span>
+
+<span class=k>for</span> dotfile in <span class=nv>$DOT_FILES</span><span class=p>;</span> <span class=k>do</span> conform_link <span class=s2>&#34;</span><span class=nv>$DATA_DIR</span><span class=s2>/</span><span class=nv>$dotfile</span><span class=s2>&#34;</span> <span class=s2>&#34;.</span><span class=nv>$dotfile</span><span class=s2>&#34;</span><span class=p>;</span> <span class=k>done</span>
+
+<span class=c1># TODO: refactor with suffix variables (or common cron values)</span>
+
+<span class=k>case</span> <span class=s2>&#34;</span><span class=nv>$PLATFORM</span><span class=s2>&#34;</span> in
+    linux<span class=o>)</span>
+        <span class=c1>#conform_link &#34;$CONF_DIR/shell/zshenv&#34; &#34;.zshenv&#34;</span>
+        crontab -l &gt; <span class=nv>$ROOT_DIR</span>/tmp/crontab-conflict-arch
+        <span class=nb>cd</span> <span class=nv>$ROOT_DIR</span>/<span class=nv>$CONF_DIR</span>/cron
+        <span class=k>if</span> <span class=o>[[</span> <span class=s2>&#34;</span><span class=k>$(</span>diff ~/tmp/crontab-conflict-arch crontab-current-arch<span class=k>)</span><span class=s2>&#34;</span> <span class=o>==</span> <span class=s2>&#34;&#34;</span>
+            <span class=o>]]</span><span class=p>;</span>
+            <span class=k>then</span> <span class=c1># no difference with current backup</span>
+                logger <span class=s2>&#34;</span><span class=nv>$LOG_PREFIX</span><span class=s2>: crontab live settings match stored &#34;</span><span class=se>\
+</span><span class=se></span>                    <span class=s2>&#34;settings; no restore required&#34;</span>
+                rm ~/tmp/crontab-conflict-arch
+            <span class=k>else</span> <span class=c1># current crontab settings in file do not match live settings</span>
+                crontab <span class=nv>$ROOT_DIR</span>/<span class=nv>$CONF_DIR</span>/cron/crontab-current-arch
+                logger <span class=s2>&#34;</span><span class=nv>$LOG_PREFIX</span><span class=s2>: crontab stored settings conflict with &#34;</span><span class=se>\
+</span><span class=se></span>                    <span class=s2>&#34;live settings; stored settings restored. &#34;</span><span class=se>\
+</span><span class=se></span>                    <span class=s2>&#34;Previous settings recorded in ~/tmp/crontab-conflict-arch.&#34;</span>
+        <span class=k>fi</span>
+    <span class=p>;;</span>
+</code></pre></td></tr></table></div></div><h2 id=c>C</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-c data-lang=c><span class=cp>#define UNICODE
+</span><span class=cp>#include</span> <span class=cpf>&lt;windows.h&gt;</span><span class=cp>
+</span><span class=cp></span>
+<span class=kt>int</span> <span class=nf>main</span><span class=p>(</span><span class=kt>int</span> <span class=n>argc</span><span class=p>,</span> <span class=kt>char</span> <span class=o>**</span><span class=n>argv</span><span class=p>)</span> <span class=p>{</span>
+  <span class=kt>int</span> <span class=n>speed</span> <span class=o>=</span> <span class=mi>0</span><span class=p>,</span> <span class=n>speed1</span> <span class=o>=</span> <span class=mi>0</span><span class=p>,</span> <span class=n>speed2</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span> <span class=c1>// 1-20
+</span><span class=c1></span>  <span class=n>printf</span><span class=p>(</span><span class=s>&#34;Set Mouse Speed by Maverick</span><span class=se>\n</span><span class=s>&#34;</span><span class=p>);</span>
+
+  <span class=n>SystemParametersInfo</span><span class=p>(</span><span class=n>SPI_GETMOUSESPEED</span><span class=p>,</span> <span class=mi>0</span><span class=p>,</span> <span class=o>&amp;</span><span class=n>speed</span><span class=p>,</span> <span class=mi>0</span><span class=p>);</span>
+  <span class=n>printf</span><span class=p>(</span><span class=s>&#34;Current speed: %2d</span><span class=se>\n</span><span class=s>&#34;</span><span class=p>,</span> <span class=n>speed</span><span class=p>);</span>
+
+  <span class=k>if</span> <span class=p>(</span><span class=n>argc</span> <span class=o>==</span> <span class=mi>1</span><span class=p>)</span> <span class=k>return</span> <span class=mi>0</span><span class=p>;</span>
+  <span class=k>if</span> <span class=p>(</span><span class=n>argc</span> <span class=o>&gt;=</span> <span class=mi>2</span><span class=p>)</span> <span class=n>sscanf</span><span class=p>(</span><span class=n>argv</span><span class=p>[</span><span class=mi>1</span><span class=p>],</span> <span class=s>&#34;%d&#34;</span><span class=p>,</span> <span class=o>&amp;</span><span class=n>speed1</span><span class=p>);</span>
+  <span class=k>if</span> <span class=p>(</span><span class=n>argc</span> <span class=o>&gt;=</span> <span class=mi>3</span><span class=p>)</span> <span class=n>sscanf</span><span class=p>(</span><span class=n>argv</span><span class=p>[</span><span class=mi>2</span><span class=p>],</span> <span class=s>&#34;%d&#34;</span><span class=p>,</span> <span class=o>&amp;</span><span class=n>speed2</span><span class=p>);</span>
+
+  <span class=k>if</span> <span class=p>(</span><span class=n>argc</span> <span class=o>==</span> <span class=mi>2</span><span class=p>)</span> <span class=c1>// set speed to first value
+</span><span class=c1></span>    <span class=n>speed</span> <span class=o>=</span> <span class=n>speed1</span><span class=p>;</span>
+  <span class=k>else</span> <span class=k>if</span> <span class=p>(</span><span class=n>speed</span> <span class=o>==</span> <span class=n>speed1</span> <span class=o>||</span> <span class=n>speed</span> <span class=o>==</span> <span class=n>speed2</span><span class=p>)</span> <span class=c1>// alternate
+</span><span class=c1></span>    <span class=n>speed</span> <span class=o>=</span> <span class=n>speed1</span> <span class=o>+</span> <span class=n>speed2</span> <span class=o>-</span> <span class=n>speed</span><span class=p>;</span>
+  <span class=k>else</span>
+    <span class=n>speed</span> <span class=o>=</span> <span class=n>speed1</span><span class=p>;</span>  <span class=c1>// start with first value
+</span><span class=c1></span>
+  <span class=n>SystemParametersInfo</span><span class=p>(</span><span class=n>SPI_SETMOUSESPEED</span><span class=p>,</span> <span class=mi>0</span><span class=p>,</span>  <span class=n>speed</span><span class=p>,</span> <span class=mi>0</span><span class=p>);</span>
+  <span class=n>SystemParametersInfo</span><span class=p>(</span><span class=n>SPI_GETMOUSESPEED</span><span class=p>,</span> <span class=mi>0</span><span class=p>,</span> <span class=o>&amp;</span><span class=n>speed</span><span class=p>,</span> <span class=mi>0</span><span class=p>);</span>
+  <span class=n>printf</span><span class=p>(</span><span class=s>&#34;New speed:     %2d</span><span class=se>\n</span><span class=s>&#34;</span><span class=p>,</span> <span class=n>speed</span><span class=p>);</span>
+  <span class=k>return</span> <span class=mi>0</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></td></tr></table></div></div><h2 id=css>CSS</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-css data-lang=css><span class=c>/* CSS Comment */</span>
+<span class=p>#</span><span class=nn>some-id</span> <span class=p>.</span><span class=nc>some-class</span> <span class=p>{</span>
+  <span class=k>float</span><span class=p>:</span> <span class=kc>left</span><span class=p>;</span>
+  <span class=k>width</span><span class=p>:</span> <span class=mi>100</span><span class=kt>px</span><span class=p>;</span>
+<span class=p>}</span>
+</code></pre></td></tr></table></div></div><h2 id=go>Go</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-go data-lang=go><span class=kn>package</span> <span class=nx>main</span>
+<span class=kn>import</span> <span class=s>&#34;fmt&#34;</span>
+<span class=kd>func</span> <span class=nf>main</span><span class=p>()</span> <span class=p>{</span>
+    <span class=nx>fmt</span><span class=p>.</span><span class=nf>Println</span><span class=p>(</span><span class=s>&#34;Hello, 世界&#34;</span><span class=p>)</span>
+<span class=p>}</span>
+</code></pre></td></tr></table></div></div><h2 id=haskell>Haskell</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-haskell data-lang=haskell><span class=cm>{-# LANGUAGE OverloadedStrings #-}</span>
+<span class=kr>module</span> <span class=nn>Main</span> <span class=kr>where</span>
+
+<span class=c1>--import Prelude hiding (id)</span>
+<span class=c1>--import Control.Category (id)</span>
+<span class=kr>import</span> <span class=nn>Control.Arrow</span> <span class=p>((</span><span class=o>&gt;&gt;&gt;</span><span class=p>),</span> <span class=p>(</span><span class=o>***</span><span class=p>),</span> <span class=nf>arr</span><span class=p>)</span>
+<span class=kr>import</span> <span class=nn>Control.Monad</span> <span class=p>(</span><span class=nf>forM_</span><span class=p>)</span>
+<span class=c1>-- import Data.Monoid (mempty, mconcat)</span>
+<span class=c1>-- import System.FilePath</span>
+
+<span class=kr>import</span> <span class=nn>Hakyll</span>
+
+<span class=nf>main</span> <span class=ow>::</span> <span class=kt>IO</span> <span class=nb>()</span>
+<span class=nf>main</span> <span class=ow>=</span> <span class=n>hakyll</span> <span class=o>$</span> <span class=kr>do</span>
+
+    <span class=n>route</span>   <span class=s>&#34;css/*&#34;</span> <span class=o>$</span> <span class=n>setExtension</span> <span class=s>&#34;css&#34;</span>
+    <span class=n>compile</span> <span class=s>&#34;css/*&#34;</span> <span class=o>$</span> <span class=n>byExtension</span> <span class=p>(</span><span class=ne>error</span> <span class=s>&#34;Not a (S)CSS file&#34;</span><span class=p>)</span>
+        <span class=p>[</span> <span class=p>(</span><span class=s>&#34;.css&#34;</span><span class=p>,</span>  <span class=n>compressCssCompiler</span><span class=p>)</span>
+        <span class=p>,</span> <span class=p>(</span><span class=s>&#34;.scss&#34;</span><span class=p>,</span> <span class=n>sass</span><span class=p>)</span>
+        <span class=p>]</span>
+
+    <span class=n>route</span>   <span class=s>&#34;js/**&#34;</span> <span class=n>idRoute</span>
+    <span class=n>compile</span> <span class=s>&#34;js/**&#34;</span> <span class=n>copyFileCompiler</span>
+
+    <span class=n>route</span>   <span class=s>&#34;img/*&#34;</span> <span class=n>idRoute</span>
+    <span class=n>compile</span> <span class=s>&#34;img/*&#34;</span> <span class=n>copyFileCompiler</span>
+
+    <span class=n>compile</span> <span class=s>&#34;templates/*&#34;</span> <span class=n>templateCompiler</span>
+
+    <span class=n>forM_</span> <span class=p>[</span><span class=s>&#34;test.md&#34;</span><span class=p>,</span> <span class=s>&#34;index.md&#34;</span><span class=p>]</span> <span class=o>$</span> <span class=nf>\</span><span class=n>page</span> <span class=ow>-&gt;</span> <span class=kr>do</span>
+        <span class=n>route</span>   <span class=n>page</span> <span class=o>$</span> <span class=n>setExtension</span> <span class=s>&#34;html&#34;</span>
+        <span class=n>compile</span> <span class=n>page</span> <span class=o>$</span> <span class=n>pageCompiler</span>
+            <span class=o>&gt;&gt;&gt;</span> <span class=n>applyTemplateCompiler</span> <span class=s>&#34;templates/default.html&#34;</span>
+            <span class=o>&gt;&gt;&gt;</span> <span class=n>relativizeUrlsCompiler</span>
+
+<span class=nf>sass</span> <span class=ow>::</span> <span class=kt>Compiler</span> <span class=kt>Resource</span> <span class=kt>String</span>
+<span class=nf>sass</span> <span class=ow>=</span> <span class=n>getResourceString</span> <span class=o>&gt;&gt;&gt;</span> <span class=n>unixFilter</span> <span class=s>&#34;sass&#34;</span> <span class=p>[</span><span class=s>&#34;-s&#34;</span><span class=p>,</span> <span class=s>&#34;--scss&#34;</span><span class=p>]</span>
+                         <span class=o>&gt;&gt;&gt;</span> <span class=n>arr</span> <span class=n>compressCss</span>
+</code></pre></td></tr></table></div></div><h2 id=html>HTML</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-html data-lang=html><span class=cp>&lt;!DOCTYPE html PUBLIC &#34;-//W3C//DTD HTML 4.01 Transitional//EN&#34;&gt;</span>
+<span class=p>&lt;</span><span class=nt>html</span><span class=p>&gt;</span>
+  <span class=p>&lt;</span><span class=nt>head</span><span class=p>&gt;</span>
+    <span class=p>&lt;</span><span class=nt>title</span><span class=p>&gt;</span>A Tiny Page<span class=p>&lt;/</span><span class=nt>title</span><span class=p>&gt;</span>
+    <span class=c>&lt;!-- Valid HTML Comment --&gt;</span>
+    <span class=p>&lt;</span><span class=nt>style</span> <span class=na>type</span><span class=o>=</span><span class=s>&#34;text/css&#34;</span><span class=p>&gt;</span>
+    <span class=o>&lt;!</span><span class=nt>--</span> <span class=nt>Invalid</span> <span class=nt>HTML</span> <span class=nt>Comment</span> <span class=nt>--</span><span class=o>&gt;</span>
+      <span class=c>/* Inline CSS Comment */</span>
+      <span class=nt>p</span> <span class=p>{</span>
+        <span class=k>font-size</span><span class=p>:</span> <span class=mi>15</span><span class=kt>pt</span><span class=p>;</span>
+        <span class=k>color</span><span class=p>:</span> <span class=mh>#000</span><span class=p>;</span>
+        <span class=k>float</span><span class=p>:</span> <span class=kc>right</span><span class=p>;</span>
+      <span class=p>}</span>
+    <span class=p>&lt;/</span><span class=nt>style</span><span class=p>&gt;</span>
+  <span class=p>&lt;/</span><span class=nt>head</span><span class=p>&gt;</span>
+  <span class=p>&lt;</span><span class=nt>body</span> <span class=na>bgcolor</span><span class=o>=</span><span class=s>&#34;#FFFFFF&#34;</span> <span class=na>text</span><span class=o>=</span><span class=s>&#34;#000000&#34;</span> <span class=na>link</span><span class=o>=</span><span class=s>&#34;#0000CC&#34;</span><span class=p>&gt;</span>
+    <span class=p>&lt;</span><span class=nt>h1</span><span class=p>&gt;</span>Heading 1<span class=p>&lt;/</span><span class=nt>h1</span><span class=p>&gt;</span>
+    <span class=p>&lt;</span><span class=nt>h2</span><span class=p>&gt;</span>Heading 2<span class=p>&lt;/</span><span class=nt>h2</span><span class=p>&gt;</span>
+    <span class=p>&lt;</span><span class=nt>p</span><span class=p>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<span class=p>&lt;/</span><span class=nt>p</span><span class=p>&gt;</span>
+    <span class=c>&lt;!--  Valid HTML Comment --&gt;</span>
+    <span class=p>&lt;</span><span class=nt>script</span> <span class=na>language</span><span class=o>=</span><span class=s>&#34;javascript&#34;</span> <span class=na>type</span><span class=o>=</span><span class=s>&#34;text/javascript&#34;</span><span class=p>&gt;</span>
+      <span class=kd>function</span> <span class=nx>changeHeight</span><span class=p>(</span><span class=nx>h</span><span class=p>)</span> <span class=p>{</span>
+        <span class=kd>var</span> <span class=nx>tds</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>getElementsByTagName</span><span class=p>(</span><span class=s2>&#34;td&#34;</span><span class=p>);</span>
+        <span class=k>for</span><span class=p>(</span><span class=kd>var</span> <span class=nx>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span> <span class=nx>i</span> <span class=o>&lt;</span> <span class=nx>tds</span><span class=p>.</span><span class=nx>length</span><span class=p>;</span> <span class=nx>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
+          <span class=nx>tds</span><span class=p>[</span><span class=nx>i</span><span class=p>].</span><span class=nx>setAttribute</span><span class=p>(</span><span class=s2>&#34;height&#34;</span><span class=p>,</span> <span class=nx>h</span> <span class=o>+</span> <span class=s2>&#34;px&#34;</span><span class=p>);</span>
+      <span class=p>}}</span>
+    <span class=p>&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
+  <span class=p>&lt;/</span><span class=nt>body</span><span class=p>&gt;</span>
+<span class=p>&lt;/</span><span class=nt>html</span><span class=p>&gt;</span>
+</code></pre></td></tr></table></div></div><h2 id=java>Java</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-java data-lang=java><span class=kn>import</span> <span class=nn>java.util.Map</span><span class=o>;</span>
+<span class=kn>import</span> <span class=nn>java.util.TreeSet</span><span class=o>;</span>
+
+<span class=kd>public</span> <span class=kd>class</span> <span class=nc>GetEnv</span> <span class=o>{</span>
+  <span class=cm>/**
+</span><span class=cm>   * let&#39;s test generics
+</span><span class=cm>   * @param args the command line arguments
+</span><span class=cm>   */</span>
+  <span class=kd>public</span> <span class=kd>static</span> <span class=kt>void</span> <span class=nf>main</span><span class=o>(</span><span class=n>String</span><span class=o>[]</span> <span class=n>args</span><span class=o>)</span> <span class=o>{</span>
+    <span class=c1>// get a map of environment variables
+</span><span class=c1></span>    <span class=n>Map</span><span class=o>&lt;</span><span class=n>String</span><span class=o>,</span> <span class=n>String</span><span class=o>&gt;</span> <span class=n>env</span> <span class=o>=</span> <span class=n>System</span><span class=o>.</span><span class=na>getenv</span><span class=o>();</span>
+    <span class=c1>// build a sorted set out of the keys and iterate
+</span><span class=c1></span>    <span class=k>for</span><span class=o>(</span><span class=n>String</span> <span class=n>k</span><span class=o>:</span> <span class=k>new</span> <span class=n>TreeSet</span><span class=o>&lt;</span><span class=n>String</span><span class=o>&gt;(</span><span class=n>env</span><span class=o>.</span><span class=na>keySet</span><span class=o>()))</span> <span class=o>{</span>
+      <span class=n>System</span><span class=o>.</span><span class=na>out</span><span class=o>.</span><span class=na>printf</span><span class=o>(</span><span class=s>&#34;%s = %s\n&#34;</span><span class=o>,</span> <span class=n>k</span><span class=o>,</span> <span class=n>env</span><span class=o>.</span><span class=na>get</span><span class=o>(</span><span class=n>k</span><span class=o>));</span>
+    <span class=o>}</span>
+  <span class=o>}</span>
+<span class=o>}</span>
+</code></pre></td></tr></table></div></div><h2 id=javascript>JavaScript</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-javascript data-lang=javascript><span class=c1>// Inline Comment
+</span><span class=c1></span><span class=kd>var</span> <span class=kc>undefined</span><span class=p>,</span>
+    <span class=nx>xui</span><span class=p>,</span>
+    <span class=nb>window</span>     <span class=o>=</span> <span class=k>this</span><span class=p>,</span>
+    <span class=nx>string</span>     <span class=o>=</span> <span class=k>new</span> <span class=nb>String</span><span class=p>(</span><span class=s1>&#39;string&#39;</span><span class=p>),</span>
+    <span class=nb>document</span>   <span class=o>=</span> <span class=nb>window</span><span class=p>.</span><span class=nb>document</span><span class=p>,</span>
+    <span class=nx>simpleExpr</span> <span class=o>=</span> <span class=sr>/^#?([\w-]+)$/</span><span class=p>;</span>
+
+<span class=cm>/**
+</span><span class=cm> * Block Comment
+</span><span class=cm> */</span>
+<span class=kd>function</span> <span class=nx>changeHeight</span> <span class=p>(</span><span class=nx>h</span><span class=p>)</span> <span class=p>{</span>
+  <span class=kd>var</span> <span class=nx>tds</span> <span class=o>=</span> <span class=nb>document</span><span class=p>.</span><span class=nx>getElementsByTagName</span><span class=p>(</span><span class=s2>&#34;td&#34;</span><span class=p>);</span>
+
+  <span class=k>for</span> <span class=p>(</span><span class=kd>var</span> <span class=nx>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span> <span class=nx>i</span> <span class=o>&lt;</span> <span class=nx>tds</span><span class=p>.</span><span class=nx>length</span><span class=p>;</span> <span class=nx>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
+    <span class=nx>tds</span><span class=p>[</span><span class=nx>i</span><span class=p>].</span><span class=nx>setAttribute</span><span class=p>(</span><span class=s2>&#34;height&#34;</span><span class=p>,</span> <span class=nx>h</span> <span class=o>+</span> <span class=s2>&#34;px&#34;</span><span class=p>);</span>
+  <span class=p>}</span>
+<span class=p>}</span>
+</code></pre></td></tr></table></div></div><h2 id=json>JSON</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=nt>&#34;employees&#34;</span><span class=p>:</span> <span class=p>[{</span>
+    <span class=nt>&#34;firstName&#34;</span><span class=p>:</span> <span class=s2>&#34;John&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;lastName&#34;</span><span class=p>:</span> <span class=s2>&#34;Doe&#34;</span>
+  <span class=p>}]</span>
+<span class=p>}</span>
+</code></pre></td></tr></table></div></div><h2 id=objective-c>Objective-C</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-objective-c data-lang=objective-c><span class=cp>#import &#34;Cocoa1AppDelegate.h&#34;
+</span><span class=cp></span>
+<span class=k>@implementation</span> <span class=nc>Cocoa1AppDelegate</span>
+
+<span class=k>@synthesize</span> <span class=n>window</span><span class=p>,</span><span class=n>siteUrl</span><span class=p>,</span><span class=n>pageContents</span><span class=p>;</span>
+
+<span class=p>-</span> <span class=p>(</span><span class=kt>void</span><span class=p>)</span><span class=nf>applicationDidFinishLaunching:</span><span class=p>(</span><span class=n>NSNotification</span> <span class=o>*</span><span class=p>)</span><span class=nv>aNotification</span> <span class=p>{</span>
+    <span class=c1>// Insert code here to initialize your application
+</span><span class=c1></span>    <span class=n>model</span> <span class=o>=</span> <span class=p>[[</span><span class=n>Cocoa1Model</span> <span class=n>alloc</span><span class=p>]</span> <span class=n>init</span><span class=p>];</span>
+<span class=p>}</span>
+
+<span class=p>-</span> <span class=p>(</span><span class=kt>IBAction</span><span class=p>)</span><span class=nf>getSiteContents:</span><span class=p>(</span><span class=kt>id</span><span class=p>)</span><span class=nv>sender</span> <span class=p>{</span>
+    <span class=p>[</span><span class=n>model</span> <span class=nl>setPageUrl</span><span class=p>:[</span><span class=n>siteUrl</span> <span class=n>stringValue</span><span class=p>]];</span>
+    <span class=n>NSString</span><span class=o>*</span> <span class=n>reply</span> <span class=o>=</span> <span class=p>[</span><span class=n>model</span> <span class=n>getUrlAsString</span><span class=p>];</span>
+    <span class=n>NSLog</span><span class=p>(</span><span class=s>@&#34;pageSrc: %@&#34;</span><span class=p>,</span> <span class=n>reply</span><span class=p>);</span>
+    <span class=p>[</span><span class=n>pageContents</span> <span class=nl>setString</span><span class=p>:</span><span class=n>reply</span><span class=p>];</span>
+    <span class=p>[[[</span><span class=n>pageContents</span> <span class=n>textStorage</span><span class=p>]</span> <span class=n>mutableString</span><span class=p>]</span> <span class=nl>appendString</span><span class=p>:</span><span class=n>reply</span><span class=p>];</span>
+<span class=p>}</span>
+
+<span class=k>@end</span>
+</code></pre></td></tr></table></div></div><h2 id=perl>Perl</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-perl data-lang=perl><span class=ch>#!perl -w</span>
+
+<span class=c1># Time-stamp: &lt;2002/04/06, 13:12:13 (EST), maverick, csvformat.pl&gt;</span>
+<span class=c1># Two pass CSV file to table formatter</span>
+
+<span class=nv>$delim</span> <span class=o>=</span> <span class=nv>$#ARGV</span> <span class=o>&gt;=</span> <span class=mi>1</span> <span class=p>?</span> <span class=nv>$ARGV</span><span class=p>[</span><span class=mi>1</span><span class=p>]</span> <span class=p>:</span> <span class=s>&#39;,&#39;</span><span class=p>;</span>
+<span class=k>print</span> <span class=bp>STDERR</span> <span class=s>&#34;Split pattern: $delim\n&#34;</span><span class=p>;</span>
+
+<span class=c1># first pass</span>
+<span class=nb>open</span> <span class=n>F</span><span class=p>,</span> <span class=s>&#34;&lt;$ARGV[0]&#34;</span> <span class=ow>or</span> <span class=nb>die</span><span class=p>;</span>
+<span class=k>while</span><span class=p>(</span><span class=sr>&lt;F&gt;</span><span class=p>)</span>
+<span class=p>{</span>
+  <span class=nb>chomp</span><span class=p>;</span>
+  <span class=nv>$i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
+  <span class=nb>map</span> <span class=p>{</span> <span class=nv>$max</span><span class=p>[</span><span class=nv>$_</span><span class=o>-&gt;</span><span class=p>[</span><span class=mi>1</span><span class=p>]]</span> <span class=o>=</span> <span class=nv>$_</span><span class=o>-&gt;</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span> <span class=k>if</span> <span class=nv>$_</span><span class=o>-&gt;</span><span class=p>[</span><span class=mi>0</span><span class=p>]</span> <span class=o>&gt;</span> <span class=p>(</span><span class=nv>$max</span><span class=p>[</span><span class=nv>$_</span><span class=o>-&gt;</span><span class=p>[</span><span class=mi>1</span><span class=p>]]</span> <span class=o>||</span> <span class=mi>0</span><span class=p>)</span> <span class=p>}</span>
+    <span class=p>(</span><span class=nb>map</span> <span class=p>{[</span><span class=nb>length</span> <span class=nv>$_</span><span class=p>,</span> <span class=nv>$i</span><span class=o>++</span><span class=p>]}</span> <span class=nb>split</span><span class=p>(</span><span class=nv>$delim</span><span class=p>));</span>
+<span class=p>}</span>
+<span class=nb>close</span> <span class=n>F</span><span class=p>;</span>
+
+<span class=k>print</span> <span class=bp>STDERR</span> <span class=s>&#39;Field width:   &#39;</span><span class=p>,</span> <span class=nb>join</span><span class=p>(</span><span class=s>&#39;, &#39;</span><span class=p>,</span> <span class=nv>@max</span><span class=p>),</span> <span class=s>&#34;\n&#34;</span><span class=p>;</span>
+<span class=k>print</span> <span class=bp>STDERR</span> <span class=nb>join</span><span class=p>(</span><span class=s>&#39; &#39;</span><span class=p>,</span> <span class=nb>map</span> <span class=p>{</span><span class=s>&#39;-&#39;</span> <span class=n>x</span> <span class=nv>$_</span><span class=p>}</span> <span class=nv>@max</span><span class=p>);</span>
+
+<span class=c1># second pass</span>
+<span class=nb>open</span> <span class=n>F</span><span class=p>,</span> <span class=s>&#34;&lt;$ARGV[0]&#34;</span> <span class=ow>or</span> <span class=nb>die</span><span class=p>;</span>
+<span class=k>while</span><span class=p>(</span><span class=sr>&lt;F&gt;</span><span class=p>)</span>
+<span class=p>{</span>
+  <span class=nb>chomp</span><span class=p>;</span>
+  <span class=nv>$i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
+  <span class=nb>map</span> <span class=p>{</span> <span class=nb>printf</span><span class=p>(</span><span class=s>&#34;%-$max[$_-&gt;[1]]s &#34;</span><span class=p>,</span> <span class=nv>$_</span><span class=o>-&gt;</span><span class=p>[</span><span class=mi>0</span><span class=p>])</span> <span class=p>}</span>
+    <span class=p>(</span><span class=nb>map</span> <span class=p>{[</span><span class=nv>$_</span><span class=p>,</span> <span class=nv>$i</span><span class=o>++</span><span class=p>]}</span> <span class=nb>split</span><span class=p>(</span><span class=nv>$delim</span><span class=p>));</span>
+  <span class=k>print</span> <span class=s>&#34;\n&#34;</span><span class=p>;</span>
+<span class=p>}</span>
+<span class=nb>close</span> <span class=n>F</span><span class=p>;</span>
+</code></pre></td></tr></table></div></div><h2 id=php>PHP</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-php data-lang=php><span class=o>&lt;?</span><span class=nx>php</span>
+
+<span class=k>require_once</span><span class=p>(</span><span class=nv>$GLOBALS</span><span class=p>[</span><span class=s1>&#39;g_campsiteDir&#39;</span><span class=p>]</span><span class=o>.</span> <span class=s2>&#34;/</span><span class=si>$ADMIN_DIR</span><span class=s2>/country/common.php&#34;</span><span class=p>);</span>
+<span class=k>require_once</span><span class=p>(</span><span class=nv>$GLOBALS</span><span class=p>[</span><span class=s1>&#39;g_campsiteDir&#39;</span><span class=p>]</span><span class=o>.</span> <span class=s2>&#34;/classes/SimplePager.php&#34;</span><span class=p>);</span>
+
+<span class=nx>camp_load_translation_strings</span><span class=p>(</span><span class=s2>&#34;api&#34;</span><span class=p>);</span>
+
+<span class=nv>$f_country_language_selected</span> <span class=o>=</span> <span class=nx>camp_session_get</span><span class=p>(</span><span class=s1>&#39;f_language_selected&#39;</span><span class=p>,</span> <span class=s1>&#39;&#39;</span><span class=p>);</span>
+<span class=nv>$f_country_offset</span> <span class=o>=</span> <span class=nx>camp_session_get</span><span class=p>(</span><span class=s1>&#39;f_country_offset&#39;</span><span class=p>,</span> <span class=mi>0</span><span class=p>);</span>
+
+<span class=k>if</span> <span class=p>(</span><span class=k>empty</span><span class=p>(</span><span class=nv>$f_country_language_selected</span><span class=p>))</span> <span class=p>{</span>
+    <span class=nv>$f_country_language_selected</span> <span class=o>=</span> <span class=k>null</span><span class=p>;</span>
+<span class=p>}</span>
+
+<span class=nv>$ItemsPerPage</span> <span class=o>=</span> <span class=mi>20</span><span class=p>;</span>
+<span class=nv>$languages</span> <span class=o>=</span> <span class=nx>Language</span><span class=o>::</span><span class=na>GetLanguages</span><span class=p>(</span><span class=k>null</span><span class=p>,</span> <span class=k>null</span><span class=p>,</span> <span class=k>null</span><span class=p>,</span> <span class=k>array</span><span class=p>(),</span> <span class=k>array</span><span class=p>(),</span> <span class=k>true</span><span class=p>);</span>
+<span class=nv>$numCountries</span> <span class=o>=</span> <span class=nx>Country</span><span class=o>::</span><span class=na>GetNumCountries</span><span class=p>(</span><span class=nv>$f_country_language_selected</span><span class=p>);</span>
+
+<span class=nv>$pager</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>SimplePager</span><span class=p>(</span><span class=nv>$numCountries</span><span class=p>,</span> <span class=nv>$ItemsPerPage</span><span class=p>,</span> <span class=s2>&#34;index.php?&#34;</span><span class=p>);</span>
+
+<span class=nv>$crumbs</span> <span class=o>=</span> <span class=k>array</span><span class=p>();</span>
+<span class=nv>$crumbs</span><span class=p>[]</span> <span class=o>=</span> <span class=k>array</span><span class=p>(</span><span class=nx>getGS</span><span class=p>(</span><span class=s2>&#34;Configure&#34;</span><span class=p>),</span> <span class=s2>&#34;&#34;</span><span class=p>);</span>
+<span class=nv>$crumbs</span><span class=p>[]</span> <span class=o>=</span> <span class=k>array</span><span class=p>(</span><span class=nx>getGS</span><span class=p>(</span><span class=s2>&#34;Countries&#34;</span><span class=p>),</span> <span class=s2>&#34;&#34;</span><span class=p>);</span>
+
+<span class=k>echo</span> <span class=nx>camp_html_breadcrumbs</span><span class=p>(</span><span class=nv>$crumbs</span><span class=p>);</span>
+
+<span class=cp>?&gt;</span><span class=err>
+</span><span class=err>
+</span><span class=err>&lt;?php if ($g_user-&gt;hasPermission(&#34;ManageCountries&#34;)) { ?&gt;
+</span><span class=err>&lt;table BORDER=&#34;0&#34; CELLSPACING=&#34;0&#34; CELLPADDING=&#34;1&#34;&gt;
+</span><span class=err>    &lt;tr&gt;
+</span><span class=err>        &lt;td&gt;&lt;a href=&#34;add.php&#34;&gt;&lt;?php putGS(&#34;Add new&#34;); ?&gt;&lt;/a&gt;&lt;/td&gt;
+</span><span class=err>    &lt;/tr&gt;
+</span><span class=err>&lt;/table&gt;
+</span><span class=err>&lt;?php } ?&gt;
+</span></code></pre></td></tr></table></div></div><h2 id=python>Python</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span><span class=lnt>61
+</span><span class=lnt>62
+</span><span class=lnt>63
+</span><span class=lnt>64
+</span><span class=lnt>65
+</span><span class=lnt>66
+</span><span class=lnt>67
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-python data-lang=python><span class=c1># Inline Python Comment</span>
+<span class=k>class</span> <span class=nc>ExitNotifyThread</span><span class=p>(</span><span class=n>Thread</span><span class=p>):</span>
+    <span class=s2>&#34;&#34;&#34;
+</span><span class=s2>    Block-Level Python Comment
+</span><span class=s2>    &#34;&#34;&#34;</span>
+    <span class=k>def</span> <span class=nf>run</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+        <span class=k>global</span> <span class=n>exitthreads</span><span class=p>,</span> <span class=n>profiledir</span>
+        <span class=bp>self</span><span class=o>.</span><span class=n>threadid</span> <span class=o>=</span> <span class=n>thread</span><span class=o>.</span><span class=n>get_ident</span><span class=p>()</span>
+        <span class=k>try</span><span class=p>:</span>
+            <span class=k>if</span> <span class=ow>not</span> <span class=n>profiledir</span><span class=p>:</span> <span class=c1># normal case</span>
+                <span class=n>Thread</span><span class=o>.</span><span class=n>run</span><span class=p>(</span><span class=bp>self</span><span class=p>)</span>
+            <span class=k>else</span><span class=p>:</span>
+                <span class=k>try</span><span class=p>:</span>
+                    <span class=kn>import</span> <span class=nn>cProfile</span> <span class=kn>as</span> <span class=nn>profile</span>
+                <span class=k>except</span> <span class=ne>ImportError</span><span class=p>:</span>
+                    <span class=kn>import</span> <span class=nn>profile</span>
+                <span class=n>prof</span> <span class=o>=</span> <span class=n>profile</span><span class=o>.</span><span class=n>Profile</span><span class=p>()</span>
+                <span class=k>try</span><span class=p>:</span>
+                    <span class=n>prof</span> <span class=o>=</span> <span class=n>prof</span><span class=o>.</span><span class=n>runctx</span><span class=p>(</span><span class=s2>&#34;Thread.run(self)&#34;</span><span class=p>,</span> <span class=nb>globals</span><span class=p>(),</span> <span class=nb>locals</span><span class=p>())</span>
+                <span class=k>except</span> <span class=ne>SystemExit</span><span class=p>:</span>
+                    <span class=k>pass</span>
+                <span class=n>prof</span><span class=o>.</span><span class=n>dump_stats</span><span class=p>(</span> \
+                            <span class=n>profiledir</span> <span class=o>+</span> <span class=s2>&#34;/&#34;</span> <span class=o>+</span> <span class=nb>str</span><span class=p>(</span><span class=bp>self</span><span class=o>.</span><span class=n>threadid</span><span class=p>)</span> <span class=o>+</span> <span class=s2>&#34;_&#34;</span> <span class=o>+</span> \
+                            <span class=bp>self</span><span class=o>.</span><span class=n>getName</span><span class=p>()</span> <span class=o>+</span> <span class=s2>&#34;.prof&#34;</span><span class=p>)</span>
+        <span class=k>except</span><span class=p>:</span>
+            <span class=bp>self</span><span class=o>.</span><span class=n>setExitCause</span><span class=p>(</span><span class=s1>&#39;EXCEPTION&#39;</span><span class=p>)</span>
+            <span class=k>if</span> <span class=n>sys</span><span class=p>:</span>
+                <span class=bp>self</span><span class=o>.</span><span class=n>setExitException</span><span class=p>(</span><span class=n>sys</span><span class=o>.</span><span class=n>exc_info</span><span class=p>()[</span><span class=mi>1</span><span class=p>])</span>
+                <span class=n>tb</span> <span class=o>=</span> <span class=n>traceback</span><span class=o>.</span><span class=n>format_exc</span><span class=p>()</span>
+                <span class=bp>self</span><span class=o>.</span><span class=n>setExitStackTrace</span><span class=p>(</span><span class=n>tb</span><span class=p>)</span>
+        <span class=k>else</span><span class=p>:</span>
+            <span class=bp>self</span><span class=o>.</span><span class=n>setExitCause</span><span class=p>(</span><span class=s1>&#39;NORMAL&#39;</span><span class=p>)</span>
+        <span class=k>if</span> <span class=ow>not</span> <span class=nb>hasattr</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=s1>&#39;exitmessage&#39;</span><span class=p>):</span>
+            <span class=bp>self</span><span class=o>.</span><span class=n>setExitMessage</span><span class=p>(</span><span class=bp>None</span><span class=p>)</span>
+
+        <span class=k>if</span> <span class=n>exitthreads</span><span class=p>:</span>
+            <span class=n>exitthreads</span><span class=o>.</span><span class=n>put</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=bp>True</span><span class=p>)</span>
+
+    <span class=k>def</span> <span class=nf>setExitCause</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>cause</span><span class=p>):</span>
+        <span class=bp>self</span><span class=o>.</span><span class=n>exitcause</span> <span class=o>=</span> <span class=n>cause</span>
+    <span class=k>def</span> <span class=nf>getExitCause</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+        <span class=s2>&#34;&#34;&#34;Returns the cause of the exit, one of:
+</span><span class=s2>        &#39;EXCEPTION&#39; -- the thread aborted because of an exception
+</span><span class=s2>        &#39;NORMAL&#39; -- normal termination.&#34;&#34;&#34;</span>
+        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>exitcause</span>
+    <span class=k>def</span> <span class=nf>setExitException</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>exc</span><span class=p>):</span>
+        <span class=bp>self</span><span class=o>.</span><span class=n>exitexception</span> <span class=o>=</span> <span class=n>exc</span>
+    <span class=k>def</span> <span class=nf>getExitException</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+        <span class=s2>&#34;&#34;&#34;If getExitCause() is &#39;EXCEPTION&#39;, holds the value from
+</span><span class=s2>        sys.exc_info()[1] for this exception.&#34;&#34;&#34;</span>
+        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>exitexception</span>
+    <span class=k>def</span> <span class=nf>setExitStackTrace</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>st</span><span class=p>):</span>
+        <span class=bp>self</span><span class=o>.</span><span class=n>exitstacktrace</span> <span class=o>=</span> <span class=n>st</span>
+    <span class=k>def</span> <span class=nf>getExitStackTrace</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+        <span class=s2>&#34;&#34;&#34;If getExitCause() is &#39;EXCEPTION&#39;, returns a string representing
+</span><span class=s2>        the stack trace for this exception.&#34;&#34;&#34;</span>
+        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>exitstacktrace</span>
+    <span class=k>def</span> <span class=nf>setExitMessage</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>msg</span><span class=p>):</span>
+        <span class=s2>&#34;&#34;&#34;Sets the exit message to be fetched by a subsequent call to
+</span><span class=s2>        getExitMessage.  This message may be any object or type except
+</span><span class=s2>        None.&#34;&#34;&#34;</span>
+        <span class=bp>self</span><span class=o>.</span><span class=n>exitmessage</span> <span class=o>=</span> <span class=n>msg</span>
+    <span class=k>def</span> <span class=nf>getExitMessage</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+        <span class=s2>&#34;&#34;&#34;For any exit cause, returns the message previously set by
+</span><span class=s2>        a call to setExitMessage(), or None if there was no such message
+</span><span class=s2>        set.&#34;&#34;&#34;</span>
+        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>exitmessage</span>
+</code></pre></td></tr></table></div></div><h2 id=ruby>Ruby</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-ruby data-lang=ruby><span class=n>desc</span> <span class=s2>&#34;Edit a post (defaults to most recent)&#34;</span>
+<span class=n>task</span> <span class=ss>:edit_post</span><span class=p>,</span> <span class=ss>:title</span> <span class=k>do</span> <span class=o>|</span><span class=n>t</span><span class=p>,</span> <span class=n>args</span><span class=o>|</span>
+  <span class=n>args</span><span class=o>.</span><span class=n>with_defaults</span><span class=p>(</span><span class=ss>:title</span> <span class=o>=&gt;</span> <span class=kp>false</span><span class=p>)</span>
+  <span class=n>posts</span> <span class=o>=</span> <span class=no>Dir</span><span class=o>.</span><span class=n>glob</span><span class=p>(</span><span class=s2>&#34;</span><span class=si>#{</span><span class=n>source_dir</span><span class=si>}</span><span class=s2>/</span><span class=si>#{</span><span class=n>posts_dir</span><span class=si>}</span><span class=s2>/*.*&#34;</span><span class=p>)</span>
+  <span class=n>post</span> <span class=o>=</span> <span class=p>(</span><span class=n>args</span><span class=o>.</span><span class=n>title</span><span class=p>)</span> <span class=p>?</span> <span class=n>post</span> <span class=o>=</span> <span class=n>posts</span><span class=o>.</span><span class=n>keep_if</span> <span class=p>{</span><span class=o>|</span><span class=n>post</span><span class=o>|</span> <span class=n>post</span> <span class=o>=~</span> <span class=sr>/</span><span class=si>#{</span><span class=n>args</span><span class=o>.</span><span class=n>title</span><span class=si>}</span><span class=sr>/</span><span class=p>}</span><span class=o>.</span><span class=n>last</span> <span class=p>:</span> <span class=n>posts</span><span class=o>.</span><span class=n>last</span>
+  <span class=k>if</span> <span class=n>post</span>
+    <span class=nb>puts</span> <span class=s2>&#34;Opening </span><span class=si>#{</span><span class=n>post</span><span class=si>}</span><span class=s2> with </span><span class=si>#{</span><span class=n>editor</span><span class=si>}</span><span class=s2>...&#34;</span>
+    <span class=nb>system</span> <span class=s2>&#34;</span><span class=si>#{</span><span class=no>ENV</span><span class=o>[</span><span class=s1>&#39;EDITOR&#39;</span><span class=o>]</span><span class=si>}</span><span class=s2> </span><span class=si>#{</span><span class=n>post</span><span class=si>}</span><span class=s2> &amp;&#34;</span>
+  <span class=k>else</span>
+    <span class=nb>puts</span> <span class=s2>&#34;No posts were found with </span><span class=se>\&#34;</span><span class=si>#{</span><span class=n>args</span><span class=o>.</span><span class=n>title</span><span class=si>}</span><span class=se>\&#34;</span><span class=s2> in the title.&#34;</span>
+  <span class=k>end</span>
+<span class=k>end</span>
+</code></pre></td></tr></table></div></div><h2 id=scss>SCSS</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-scss data-lang=scss><span class=k>@import</span> <span class=s2>&#34;grids&#34;</span><span class=p>;</span>
+
+<span class=nv>$blue</span><span class=o>:</span> <span class=ni>blue</span><span class=p>;</span>
+
+<span class=nt>a</span><span class=nc>.myAnchor</span> <span class=p>{</span>
+    <span class=nt>color</span><span class=nd>:</span> <span class=err>$</span><span class=nt>blue</span><span class=p>;</span>
+    <span class=k>&amp;</span><span class=nd>:hover</span> <span class=p>{</span>
+        <span class=nt>text-decoration</span><span class=nd>:</span> <span class=nt>underline</span><span class=p>;</span>
+    <span class=p>}</span>
+    <span class=k>&amp;</span><span class=nd>:visited</span> <span class=p>{</span>
+        <span class=nt>color</span><span class=nd>:</span> <span class=nt>purple</span><span class=p>;</span>
+    <span class=p>}</span>
+<span class=p>}</span>
+
+<span class=nc>.error-input</span> <span class=p>{</span>
+  <span class=k>@extend</span> <span class=nc>.input</span><span class=p>;</span>
+  <span class=nt>border</span><span class=nd>:</span> <span class=nt>4px</span> <span class=nt>solid</span> <span class=nn>#e74c3c</span><span class=p>;</span>
+<span class=p>}</span>
+
+<span class=err>%</span><span class=nt>input-style</span> <span class=p>{</span>
+    <span class=nt>font-size</span><span class=nd>:</span> <span class=nt>14px</span><span class=p>;</span>
+<span class=p>}</span>
+
+<span class=nt>input</span> <span class=p>{</span>
+    <span class=k>@extend</span> <span class=err>%</span><span class=nt>input-style</span><span class=p>;</span>
+    <span class=nt>color</span><span class=nd>:</span> <span class=nt>black</span><span class=p>;</span>
+<span class=p>}</span>
+
+<span class=k>@mixin</span><span class=nf> media</span><span class=p>(</span><span class=nv>$queryString</span><span class=p>){</span>
+    <span class=k>@media</span> <span class=si>#{</span><span class=nv>$queryString</span><span class=si>}</span> <span class=p>{</span>
+      <span class=k>@content</span><span class=p>;</span>
+    <span class=p>}</span>
+<span class=p>}</span>
+
+<span class=k>@function</span> <span class=nt>getColumnWidth</span><span class=o>(</span><span class=err>$</span><span class=nt>width</span><span class=o>,</span> <span class=err>$</span><span class=nt>columns</span><span class=o>,</span><span class=err>$</span><span class=nt>margin</span><span class=o>)</span><span class=p>{</span>
+    <span class=k>@return</span> <span class=o>(</span><span class=err>$</span><span class=nt>width</span> <span class=o>/</span> <span class=err>$</span><span class=nt>columns</span><span class=o>)</span> <span class=nt>-</span> <span class=o>(</span><span class=err>$</span><span class=nt>margin</span> <span class=o>*</span> <span class=nt>2</span><span class=o>)</span><span class=p>;</span>
+<span class=p>}</span>
+
+<span class=nv>$settings</span><span class=o>:</span> <span class=p>(</span>
+    <span class=n>maxWidth</span><span class=o>:</span> <span class=mi>800</span><span class=kt>px</span><span class=o>,</span>
+    <span class=no>columns</span><span class=o>:</span> <span class=mi>12</span><span class=o>,</span>
+    <span class=no>margin</span><span class=o>:</span> <span class=mi>15</span><span class=kt>px</span><span class=o>,</span>
+    <span class=n>breakpoints</span><span class=o>:</span> <span class=p>(</span>
+        <span class=n>xs</span><span class=o>:</span> <span class=s2>&#34;(max-width : 480px)&#34;</span><span class=o>,</span>
+        <span class=n>sm</span><span class=o>:</span> <span class=s2>&#34;(max-width : 768px) and (min-width: 481px)&#34;</span><span class=o>,</span>
+        <span class=n>md</span><span class=o>:</span> <span class=s2>&#34;(max-width : 1024px)  and (min-width: 769px)&#34;</span><span class=o>,</span>
+        <span class=n>lg</span><span class=o>:</span> <span class=s2>&#34;(min-width : 1025px)&#34;</span>
+    <span class=p>)</span>
+<span class=p>);</span>
+</code></pre></td></tr></table></div></div><h2 id=sql>SQL</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-sql data-lang=sql><span class=k>SELECT</span><span class=w> </span><span class=k>column_name</span><span class=p>,</span><span class=w> </span><span class=k>column_name</span><span class=w> </span><span class=k>FROM</span><span class=w> </span><span class=k>table_name</span><span class=p>;</span><span class=w>
+</span></code></pre></td></tr></table></div></div><h2 id=xml>XML</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre class=chroma><code class=language-xml data-lang=xml><span class=nt>&lt;employees&gt;</span>
+    <span class=nt>&lt;employee&gt;</span>
+        <span class=nt>&lt;firstName&gt;</span>John<span class=nt>&lt;/firstName&gt;</span> <span class=nt>&lt;lastName&gt;</span>Doe<span class=nt>&lt;/lastName&gt;</span>
+    <span class=nt>&lt;/employee&gt;</span>
+<span class=nt>&lt;/employees&gt;</span>
+</code></pre></td></tr></table></div></div><hr><p>Source:
+<a href=https://gist.github.com/cbracco/32036db5425d23de70c3dd9a846517d0 target=_blank rel="noopener noreferrer">markdown-pygments-syntax-highlighting-test.md · GitHub</a></p></div><div class=post-footer id=post-footer><div class=post-info><div class=post-info-line><div class=post-info-mod><span>Updated on 2021-05-09&nbsp;<a class=git-hash href=https://github.com/sosiristseng/template-hugo-codeit/commit/4e77db03c3dc1e8ff3a9e0f2ad593d63506f40dc target=_blank rel="noopener noreferrer" title="commit by KKKPJSKEY(72875257+KKKPJSKEY@users.noreply.github.com) 4e77db03c3dc1e8ff3a9e0f2ad593d63506f40dc: Initial commit">
+<i class="fas fa-hashtag fa-fw"></i>4e77db0</a></span></div><div class=post-info-license></div></div><div class=post-info-line><div class=post-info-md><span><a class=link-to-markdown href=/template-hugo-codeit/syntax-highlighting/index.md target=_blank rel="noopener noreferrer">Read Markdown</a></span></div><div class=post-info-share><span><a href=javascript:void(0); title="Share on Twitter" data-sharer=twitter data-url=https://sosiristseng.github.io/template-hugo-codeit/syntax-highlighting/ data-title="Syntax Highlighting" data-via=sosiristseng data-hashtags="syntax highlighting"><i class="fab fa-twitter fa-fw"></i></a><a href=javascript:void(0); title="Share on Facebook" data-sharer=facebook data-url=https://sosiristseng.github.io/template-hugo-codeit/syntax-highlighting/ data-hashtag="syntax highlighting"><i class="fab fa-facebook-square fa-fw"></i></a><a href=javascript:void(0); title="Share on Hacker News" data-sharer=hackernews data-url=https://sosiristseng.github.io/template-hugo-codeit/syntax-highlighting/ data-title="Syntax Highlighting"><i class="fab fa-hacker-news fa-fw"></i></a><a href=javascript:void(0); title="Share on Reddit" data-sharer=reddit data-url=https://sosiristseng.github.io/template-hugo-codeit/syntax-highlighting/><i class="fab fa-reddit fa-fw"></i></a><a href=javascript:void(0); title="Share on Line" data-sharer=line data-url=https://sosiristseng.github.io/template-hugo-codeit/syntax-highlighting/ data-title="Syntax Highlighting"><i data-svg-src=https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg></i></a></span></div></div></div><div class=post-info-more><section class=post-tags><i class="fas fa-tags fa-fw"></i>&nbsp;<a href=/template-hugo-codeit/tags/syntax-highlighting/>syntax highlighting</a></section><section><span><a href=javascript:void(0); onclick=window.history.back()>Back</a></span>&nbsp;|&nbsp;<span><a href=/template-hugo-codeit/>Home</a></span></section></div><div class=post-nav><a href=/template-hugo-codeit/emoji-support/ class=next rel=next title="Emoji Support">Emoji Support<i class="fas fa-angle-right fa-fw"></i></a></div></div><div id=comments></div></article></div></main><footer class=footer><div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreferrer" title="Hugo 0.83.1">Hugo</a> | Theme - <a href=https://github.com/sunt-programator/CodeIT target=_blank rel="noopener noreferrer" title="CodeIT 0.2.10"><i class="fas fa-laptop-code fa-fw"></i> CodeIT</a></div><div class=footer-line><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2020 - 2021</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=https://github.com/sosiristseng target=_blank rel="noopener noreferrer">Wen-Wei Tseng</a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreferrer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></span></div></div></footer></div><div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top"><i class="fas fa-arrow-up fa-fw"></i>
+</a><a href=# id=view-comments class=fixed-button title="View Comments"><i class="fas fa-comment fa-fw"></i></a></div><script type=text/javascript src=https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"Copy to clipboard",maxShownLines:14},comment:{},search:{highlightTag:"em",lunrIndexURL:"/template-hugo-codeit/index.json",maxResultLength:10,noResultsFound:"No results found",snippetLength:30,type:"lunr"}}</script><script type=text/javascript src=/template-hugo-codeit/js/theme.min.js></script></body></html>
